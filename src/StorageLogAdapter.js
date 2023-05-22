@@ -3,7 +3,7 @@
   GUN.on('create', function (Context) {        // do not use a "fat arrow" here!
     this.to.next(Context)
 
-    if (Context.opt.flowlog != true) { return }      // adapter wasn't requested
+    if (Context.opt.storagelog != true) { return }   // adapter wasn't requested
 
   /**** get - retrieve the contents of a given node ****/
 
