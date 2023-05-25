@@ -4,7 +4,7 @@ logs messages intended for GunDB storage adapters
 
 Storage adapters for [GunDB](https://github.com/amark/gun) react on messages sent by GunDB. For debugging purposes it is sometimes useful to log these messages without having to touch the storage adapter itself. That's what this adapter is good for.
 
-> **Important: after two weeks of intensive work and no substantial outcome, I have decided to give up on GunDB - it is full of bugs and - even worse - race conditions and the implementation looks like being hacked in a style used 40 years ago (when source code had to be compact and variable names short in order to fit into the memory) **
+> **Important: after two weeks of intensive work and no substantial outcome, I have decided to give up on GunDB - it is full of bugs and - even worse - race conditions and the implementation looks like being hacked in a style used 40 years ago (when source code had to be compact and variable names short in order to fit into the memory)**
 
 ## Usage ##
 
